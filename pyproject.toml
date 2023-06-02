@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "digicon_mod"
-version = "0.1.0"
+version = "0.1.2"
 description = "Simple simulation tools for hybrid systems with digital control and continous process. More details can be found at https://github.com/ant-nik/digicon-mod."
 authors = ["Anton Nikonov <ant.nik.nik@mail.ru>"]
-license = "Apache 2.0"
+license = "Apache-2.0"
 readme = "README.md"
 packages = [{include = "digicon_mod"}]
+repository = "https://github.com/ant-nik/digicon-mod"
 
 [tool.poetry.dependencies]
 python = "^3.9"
