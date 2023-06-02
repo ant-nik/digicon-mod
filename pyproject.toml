@@ -1,19 +1,19 @@
 [tool.poetry]
 name = "digicon_mod"
 version = "0.1.0"
-description = "Simple simulation tools for hybrid systems with digital control and continous process. See more details at https://github.com/ant-nik/digicon-mod"
+description = "Simple simulation tools for hybrid systems with digital control and continous process. More details can be found at https://github.com/ant-nik/digicon-mod."
 authors = ["Anton Nikonov <ant.nik.nik@mail.ru>"]
 license = "Apache 2.0"
 readme = "README.md"
 packages = [{include = "digicon_mod"}]
 
 [tool.poetry.dependencies]
-python = "3.11.1"
-numpy = "^1.24.3"
-scipy = "^1.10.1"
+python = "^3.9"
+numpy = "^1.23"
+scipy = "^1.9"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.3.1"
+pytest = "^7.3"
 
 [build-system]
 requires = ["poetry-core"]
